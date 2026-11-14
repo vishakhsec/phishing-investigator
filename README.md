@@ -19,7 +19,7 @@ At the end, you can download a full report, like something a real security analy
 
 ## Why I built this
 
-I'm studying to become a SOC analyst (someone who watches for cyberattacks and investigates suspicious activity). Phishing emails are one of the most common ways attackers try to trick people, so I wanted to build something that does the checking automatically — and I wanted to build every part myself, step by step, instead of copying a finished project. That way I actually understand how each piece works.
+I'm studying to become a SOC analyst. Phishing emails are one of the most common ways attackers try to trick people, so I wanted to build something that does the checking automatically — and I wanted to build every part myself, step by step, instead of copying a finished project. That way I actually understand how each piece works.
 
 ## The 8 things it checks (in plain words)
 
