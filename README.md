@@ -1,4 +1,3 @@
-cat > README.md << 'READMEEOF'
 # Phishing Email Analysis & Investigation System
 
 A tool I built to check if an email is a phishing attempt. You upload an email file, and it looks at the sender, the links, any attachments, and tells you how risky the email is — and why.
