@@ -1,4 +1,3 @@
-cat > README.md << 'READMEEOF'
 # Phishing Email Analysis & Investigation System
 
 A tool I built to check if an email is a phishing attempt. You upload an email file, and it looks at the sender, the links, any attachments, and tells you how risky the email is — and why.
@@ -36,6 +35,26 @@ I'm studying to become a SOC analyst (someone who watches for cyberattacks and i
 ## Built with
 
 Python, Flask (to make it a website), and a few small Python tools: one for reading emails, one for calculating file fingerprints (SHA-256), and one for talking to VirusTotal.
+
+## Screenshots
+
+**The upload form**
+![Upload form](screenshots/upload_form.png)
+
+**A clean email — correctly scored Low Risk**
+![Low risk result](screenshots/low_risk.png)
+
+**A full phishing email — High Risk, with every module's findings and MITRE ATT&CK mapping**
+![High risk result](screenshots/high_risk.png)
+
+**A spoofed sender that passed authentication but still got caught — Medium Risk**
+![Medium risk result](screenshots/medium_risk.png)
+
+**The downloaded investigation report**
+![Investigation report](screenshots/report.png)
+
+**The app running in the terminal**
+![Terminal running Flask](screenshots/terminal.png)
 
 ## How I tested it
 
@@ -81,7 +100,7 @@ pip install -r requirements.txt
 
 Add your own VirusTotal key in a file called `.env`:
 VT_API_KEY=your_api_key_here
- 
+
 Then run it:
 ```bash
 python3 app.py
