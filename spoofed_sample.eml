@@ -1,0 +1,20 @@
+From: "PayPal Support" <service@paypal.com>
+Reply-To: refunds@totally-fake-paypal.ru
+Return-Path: <bounce@paypal.com>
+To: employee@example.com
+Subject: Your refund is ready
+Message-ID: <xyz789@paypal.com>
+Authentication-Results: mx.google.com; spf=pass smtp.mailfrom=paypal.com;
+ dkim=pass header.d=paypal.com; dmarc=pass (p=REJECT sp=REJECT dis=NONE)
+ header.from=paypal.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi,
+
+Your refund of $49.99 is ready. Reply to this email to confirm your bank deta=
+ils.
+
+Thanks,
+PayPal Support

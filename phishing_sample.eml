@@ -1,0 +1,36 @@
+From: "Microsoft Security" <support@micros0ft-security.com>
+Reply-To: attacker@totally-different-domain.ru
+Return-Path: <bounce@sketchy-mailer.net>
+To: employee@example.com
+Subject: Urgent - Your Microsoft Account Will Be Blocked
+Message-ID: <12345@micros0ft-security.com>
+Authentication-Results: mx.google.com; spf=fail (google.com: domain of
+ bounce@sketchy-mailer.net does not designate permitted sender hosts)
+ smtp.mailfrom=sketchy-mailer.net; dkim=none (message not signed); dmarc=fail
+ (p=REJECT sp=REJECT dis=NONE) header.from=micros0ft-security.com
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2051444157251874039=="
+
+--===============2051444157251874039==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear User,
+
+We detected unusual activity on your account. Click the link below to verify =
+your account immediately or it will be blocked within 24 hours.
+
+http://micros0ft-security.com/login
+
+Microsoft Security Team
+
+--===============2051444157251874039==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_2026.pdf.exe"
+MIME-Version: 1.0
+
+TVoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+--===============2051444157251874039==--
